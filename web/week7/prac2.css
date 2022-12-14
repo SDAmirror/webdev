@@ -1,0 +1,37 @@
+.container{
+    display: grid;
+    grid-template-areas: 
+        'login login login'
+        'uinputt linputer linputer'
+        'pinputt pinputer pinputer';
+    background-color: aquamarine;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 70%;
+    
+}
+.login{grid-area: login;}
+.uinputt{grid-area: uinputt}
+.pinputer{grid-area: pinputer}
+.pinputt{grid-area: pinputt}
+.linputer{grid-area: linputer}
+
+@media(max-width: 50%) 
+{ .grid_template{ 
+    grid-template-areas: 
+        'login' 
+        'uinputt' 
+        'linputer' 
+        'pinputt'
+        'pinputer'; 
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr 20% 1fr 20%; } 
+}
+.container input
+{
+    border-radius: 10px;
+}
+.container .login
+{
+    background-color:brown;
+}

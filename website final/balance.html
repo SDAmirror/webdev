@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Balance</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="script.js"></script>
+	<script src="jq.js"></script>
+</head>
+<body>
+<div class="web1">
+	<div class="row header">
+		<div class="col-lg-3"></div>
+		<div class="col-lg-6 center">
+			<h1>Top up your balance</h1>
+		</div>
+		<div class="col-lg-3"></div>
+	</div>
+	<div class="container">
+		<div class="payment-merchant">
+			<div class="row balance-row justify-content-lg-center">
+				<div class="col-lg-4">
+					<div class="merchant">
+						<div class="row">
+							<h2>Payment merchant</h2>
+						</div>
+						<div class="row">
+							<label for="">Telephone</label>
+							<div class="input-group mb-3">
+							  <div class="input-group-prepend">
+							    <span class="input-group-text" id="basic-addon1" onchange="telnum(this.value)">+7</span>
+							  </div>
+							  <input type="tel" class="form-control" placeholder="xxx-xxx-xxxx" aria-label="telephone" pattern="[0-9]{10}" aria-describedby="basic-addon1" onchange="telnum(this.value)" maxlength="10" required
+							  >
+							</div>
+						</div>
+						<div class="row options">
+						  	<h4 id="kcell-label" class="non-activated">Kcell</h4>
+						  	<h4 id="altel-label" class="non-activated">Altel</h4>
+						  	<h4 id="beeline-label" class="non-activated">Beeline</h4>
+						  	<h4 id="tele-label" class="non-activated">Tele2</h4>
+						</div>
+						<div class="row">
+							<div class="input-group mb-3">
+							  <div class="input-group-prepend">
+							    <span class="input-group-text">KZT</span>
+							  </div>
+							  <input type="text" class="form-control"  id="money-new" onchange="checkamount(this.value)">
+							  <div class="input-group-append">
+							    <span class="input-group-text">.00</span>
+							  </div>
+							</div>
+						</div>
+						<div class="row d-flex justify-content-around">
+							<div class="form-check">
+							  <input name="money" class="form-check-input" type="radio" value="" id="defaultCheck1" onclick="mymoney(1);" value="1">
+							  <label class="form-check-label" for="defaultCheck1">
+							    1000
+							  </label>
+							</div>
+							<div class="form-check">
+							  <input name="money" class="form-check-input" type="radio" value="" id="defaultCheck1" onclick="mymoney(2);" value="2">
+							  <label class="form-check-label" for="defaultCheck1">
+							    2000
+							  </label>
+							</div>
+						</div>
+						<div class="row d-flex justify-content-around">
+							<div class="form-check">
+							  <input name="money" class="form-check-input" type="radio" value="" id="defaultCheck1" onclick="mymoney(3);" value="3">
+							  <label class="form-check-label" for="defaultCheck1">
+							    5000
+							  </label>
+							</div>
+							<div class="form-check">
+							  <input name="money" class="form-check-input" type="radio" value="" id="defaultCheck1" onclick="mymoney(4);" value="4">
+							  <label class="form-check-label" for="defaultCheck1">
+							    10000
+							  </label>
+							</div>
+						</div>
+						<div class="row d-flex justify-content-lg-center row-submit">
+							<button class="btn btn-primary" type="submit" onclick="sent()">Form payment</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 wrapper-payment">
+					<div class="wrapper-payment-in">
+						<div class="row"><h3>Amount : </h3> <h3 id="putAmount"></h3></div>
+						<div class="row"><h3>Cellular : </h3> <h3 id="putCellular"></h3></div>
+						<div class="row">
+							<div class="input-group">
+								<div class="input-group-prepend">
+								  <label class="input-group-text" for="inputGroupSelect01">Options</label>
+								</div>
+								<select class="custom-select" id="paymentselector">
+								  <option selected>Choose...</option>
+								  <option value="card">Card</option>
+								  <option value="qiwi">Qiwi</option>
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<div class="payment" id="card" style="display:none">
+								<div class="payment-wrapper">
+									<div class="form-titles">
+										<select class="custom-select" name="" id="">
+											<option value="visa">Visa</option>
+											<option value="ms">MasterCard</option>
+											<option value="maes">Maestro</option>
+										</select>
+									</div>
+									<div class="form-inner">
+										<input name="credit-number" class="form-control" type="tel" pattern="\d*" maxlength="19" placeholder="Card Number">
+										<div class="d-flex justify-content-around">
+											<input id="date" name="credit-expires" class="form-control" type="tel" pattern="\d*" maxlength="7" placeholder="MM / YY">
+											<input id="cvc" name="credit-cvc" class="form-control" type="tel" pattern="\d*" maxlength="4" placeholder="CVC">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="payment" id="qiwi" style="display:none">
+								<div class="payment-wrapper">
+									<div class="form-titles">
+										<h5>Qiwi phone</h5>
+									</div>
+									<div class="form-inner">
+										<div class="input-group">
+										  <div class="input-group-prepend">
+										    <span class="input-group-text" id="basic-addon1">+7</span>
+										  </div>
+										  <input type="tel" class="form-control" placeholder="xxx-xxx-xxxx" aria-label="telephone" pattern="[0-9]{10}" aria-describedby="basic-addon1" onchange="telnum(this.value)" maxlength="10" required
+										  >
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row row-submit">
+							<button class="btn btn-primary" type="submit">Pay</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<script>
+		$(function() {
+        	$('#paymentselector').change(function(){
+            	$('.payment').hide();
+            	$('#' + $(this).val()).show();
+        	});
+    	});
+	</script>
+</div>
+</body>
+</html>

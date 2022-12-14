@@ -1,0 +1,93 @@
+    .conimg{
+        width: 30%;
+    }
+
+    .asider-link{
+        text-decoration: none;
+        color: khaki;
+    }
+    .g4d{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .g4d p{
+        color: black;
+        background: white;
+    }
+    .g4d div{
+        width: 100%;
+        padding: 5%;
+    }
+
+    .g40to60 p{
+        color: black;
+        background: white;
+    }
+    .g40to60 div{
+        width: 100%;
+        padding: 5%;
+    }
+
+    .vertgrid{
+        border: black solid 0.5px;
+        border-collapse: collapse;
+        padding: 1%;
+        display: grid;
+        grid-template-rows: 1fr 4fr;
+    }
+    .horgrid{
+        border: black solid 0.5px;
+        border-collapse: collapse;
+        display: grid;
+        grid-template-columns: 35% 30% 35%;
+    }
+
+    .aboutOrg{
+        border: black solid 0.5px;
+        border-collapse: collapse;
+    }
+    .vertsidegrid{
+        border: black solid 0.5px;
+        border-collapse: collapse;
+        display: grid;
+        grid-template-rows: 1fr 2fr 2fr 2fr 1fr;
+    }
+    .g60to40{
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+    .g40to60{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+
+    .borderb{
+        border: black solid 1px;
+    }
+    .borderw{
+        border: white;
+    }
+    .ckhak{
+        color: khaki;
+    }
+    .cwhite{
+        color: white;
+    }
+
+    .cdark{
+        color: black;
+    }
+    .tcborder div{
+        border: gold solid 1px;
+        border-collapse: collapse;
+    }
+
+    .d3butt{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .d3butt input{
+        height: 100%;
+        background-color: black;
+        color: white;
+    }

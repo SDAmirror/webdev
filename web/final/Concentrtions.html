@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>concentrations</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="mainpage.css" rel="stylesheet">
+    <link rel="stylesheet" href="calculation.css">
+    <link rel="stylesheet" href="content.css">
+    <link  href="https://fonts.googleapis.com/css?family=Font+Name">
+    <script src="mainpage.js" defer></script>
+    <script src="calculator.js" defer></script>
+</head>
+<body>
+
+<img  id="bgimg"  src="image-20160510-20731-1pf8nwv.jpg">
+<header class=" row media">
+    <!--what is chemistry -->
+    <div class="dropdown col-xs-1">
+
+        <div class="dropdiv">YOU HAVE TO KNOW</div>
+
+        <div class="content">
+            <a href="chemistryIs.html" target="_self" class="con-text">what is chemistry</a>
+            <a href="safetyRules.html" target="_self" class="con-text">safety rules</a>
+            <a  href="equipment.html" target="_self"  class="con-text">eqipment</a>
+            <a href="PeriodicTable.html" target="_self" class="con-text">periodic table</a>
+        </div>
+
+    </div>
+    <!-- -->
+    <div class="dropdown col-xs-1">
+
+        <div class="dropdiv">CALCULATIONS</div>
+
+        <div class="content">
+            <a href="energies.html" target="_self" class="con-text">energies</a>
+            <a href="constants.html" target="_self" class="con-text">constants</a>
+            <a href="Concentrtions.html" target="_self" class="con-text">concentration</a>
+        </div>
+
+    </div>
+    <!-- -->
+    <div class="dropdown col-xs-1">
+
+        <div class="dropdiv">ORGANIC CHEMISTRY</div>
+
+        <div class="content">
+            <a href="introductionTOC.html" target="_self" class="con-text">introduction to organic chemistry</a>
+            <a href="maingroups.html" target="_self" class="con-text">alcohols, esters and carboxylic acids</a>
+            <a href="hydrocarbons.html" target="_self" class="con-text">hydrocarbons</a>
+            <a href="carbonyls.html" target="_self" class="con-text">сarbonyl compounds</a>
+        </div>
+
+    </div>
+
+    <div class="dropdown col-xs-1">
+        <a class="hm" href="mainpage.html"><div class="dropdiv">HOME</div></a>
+    </div>
+
+</header>
+<div id="mySidenav" class="asider" >
+
+    <div class="asiderall">
+        <div class=""> <button style="background-color: black" class="take-away" onclick="take(bgimg)">take away or return image</button></div>
+        <div  style="border: silver solid 5px">
+            <div style="width:50% ;padding: 10%; height: 100%;background-color: white;float: left">white background<input style="background-color: white;color: white" class="bgradio" oninput="bgcolord(bgimg)" value="0" type="radio" name="bgic"></div>
+            <div style="width: 50%;padding: 10%;height: 100%;background-color: #000000;float: right">dark background<input style="background-color: #000000" class="bgradio" oninput="bgcolorw(bgimg)" value="1" type="radio" name="bgic"></div>
+        </div>
+        <button style="background-color: black" onclick="closeNav()"><div>close</div></button>
+
+    </div>
+
+</div>
+
+<div class=""  id="op1" onclick="openNav()"  style="height: 100%;width: 0%;color: khaki;position: fixed;border: black solid 1px;background-color: white;font-size:1.7em; text-align: center; word-wrap: break-word;">
+    <div class="asiderall">
+        <div style="background-color: black"  ></div>
+        <div ></div>
+        <div style="background-color: black"></div>
+        <div></div>
+    </div>
+</div>
+<div class="contenter " name="contentW">
+    <div>
+
+    </div >
+
+    <div  style="height: 350px"  class="g40to60">
+        <h1 style="width: 50%;">solution preporation</h1>
+        <div>
+            <iframe width="100%" height="
+100%" src="https://www.youtube.com/embed/1iBQXJye8wI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+            </iframe>
+        </div>
+    </div>
+    <hr>
+
+    <div >
+        <h1>How to Calculate Volume Percent Concentration of a Solution</h1>
+        <p>Volume percent is the volume of solute per volume of solution. This unit is used when mixing together volumes of two solutions to prepare a new solution. When you mix solutions, the volumes aren't always additive, so volume percent is a good way to express concentration. The solute is the liquid present in a smaller amount, while the solute is the liquid present in a larger amount.​</p>
+
+    </div>
+    <hr>
+</div>
+
+<div class="contenter " name="contentW">
+    <!--
+     N
+     M
+     a
+     -->
+    <h1>prepair your sollution</h1>
+    <div class="eqgr" >
+        <div  class="eqingr"><label for="Mr"></label><input id="Mr" placeholder="molar mass g/mol" type="number"></div>
+        <div  class="eqingr"><label for="mass"></label><input id="mass" placeholder="mass of substance in water" type="number"></div>
+        <div  class="eqingr"><label for="vol"></label><input id="vol" placeholder="volume of water in" type="number"></div>
+        <div></div>
+        <div><button onclick="Concentration(M)">concentration</button></div>
+        <div><button onclick="Number(N)">Nubmber of particles</button></div>
+        <div><p id="M"></p></div>
+        <div><p id="N"></p></div>
+
+
+
+
+
+    </div>
+</div>
+
+
+</body>
+</html>

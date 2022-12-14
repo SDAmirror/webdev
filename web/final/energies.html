@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>energies</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="mainpage.css" rel="stylesheet">
+    <link rel="stylesheet" href="calculation.css">
+    <link  href="https://fonts.googleapis.com/css?family=Font+Name">
+    <script src="mainpage.js" defer></script>
+    <script src="calculator.js" defer></script>
+</head>
+<body>
+
+<img  id="bgimg"  src="image-20160510-20731-1pf8nwv.jpg">
+<header id="headerf" class="row media">
+    <!--what is chemistry -->
+    <div class="dropdown col-xs-1">
+
+        <div class="dropdiv">YOU HAVE TO KNOW</div>
+
+        <div class="content">
+            <a href="chemistryIs.html" target="_self" class="con-text">what is chemistry</a>
+            <a href="safetyRules.html" target="_self" class="con-text">safety rules</a>
+            <a  href="equipment.html" target="_self"  class="con-text">eqipment</a>
+            <a href="PeriodicTable.html" target="_self" class="con-text">periodic table</a>
+
+        </div>
+
+    </div>
+    <!-- -->
+    <div class="dropdown col-xs-1">
+
+        <div class="dropdiv">CALCULATIONS</div>
+
+        <div class="content">
+            <a href="energies.html" target="_self" class="con-text">energies</a>
+            <a href="constants.html" target="_self" class="con-text">constants</a>
+            <a href="Concentrtions.html" target="_self" class="con-text">concetration</a>
+        </div>
+
+    </div>
+    <!-- -->
+    <div class="dropdown col-xs-1">
+
+        <div class="dropdiv">ORGANIC CHEMISTRY</div>
+
+        <div class="content">
+            <a href="introductionTOC.html" target="_self" class="con-text">introduction to organic chemistry</a>
+            <a href="maingroups.html" target="_self" class="con-text">alcohols, esters and carboxylic acids</a>
+            <a href="hydrocarbons.html" target="_self" class="con-text">hydrocarbons</a>
+            <a href="carbonyls.html" target="_self" class="con-text">сarbonyl compounds</a>
+
+        </div>
+
+    </div>
+
+    <div class="dropdown col-xs-1">
+        <a class="hm" href="mainpage.html"><div class="dropdiv">HOME</div></a>
+    </div>
+
+</header>
+<div id="mySidenav" class="asider" >
+
+
+    <div class="asiderall">
+        <div class=""> <button style="background-color: black" class="take-away" onclick="take(bgimg)">take away or return image</button></div>
+        <div  style="border: silver solid 5px">
+            <div style="width:50% ;padding: 10%; height: 100%;background-color: white;float: left">white background<input style="background-color: white;color: white" class="bgradio" oninput="bgcolord(bgimg)" value="0" type="radio" name="bgic"></div>
+            <div style="width: 50%;padding: 10%;height: 100%;background-color: #000000;float: right">dark background<input style="background-color: #000000" class="bgradio" oninput="bgcolorw(bgimg)" value="1" type="radio" name="bgic"></div>
+        </div>
+        <button style="background-color: black" onclick="closeNav()"><div>close</div></button>
+
+    </div>
+
+
+</div>
+<div class=""  id="op1" onclick="openNav()"  style="height: 100%;width: 0%;color: khaki;position: fixed;border: black solid 1px;background-color: white;font-size:1.7em; text-align: center; word-wrap: break-word;">
+    <div class="asiderall">
+        <div style="background-color: black"  ></div>
+        <div ></div>
+        <div style="background-color: black"></div>
+        <div></div>
+    </div>
+</div>
+<div class="contenter " name="contentW">
+
+    <h1>what Gibb's free energy is?</h1>
+    <p style="position: relative"><img hspace="3" vspace="3" align="left" class="gimg"  src="https://qph.fs.quoracdn.net/main-qimg-0dee5544b5b7fed2f66d6d6cd014a426">
+        Gibbs Free Energy is the energy available in a system to do work (reversibly, if you want to be nitpicky). That means energy that isn’t dissipated through heat or expansion of the system.
+        This system, by the way, can be anything you want; your body, a backpack, or a specific chemical reaction. Every system has enthalpy or heat content, represented by H, which you can think of as the energy already in the system. Every system also has statistical entropy, represented by S (I’m not going to explain entropy, because there are plenty of great explanations on Quora already). Simply put, the equation G = H - TS means that the amount of energy available to do work is equal to the heat content minus the probability of energy being dissipated through entropy-related “expansion” (I use the term expansion here very liberally; the system doesn’t have to literally be expanding).</p>
+    <p></p>
+    <img style="width: 100%;" src="gibbsimg.jpeg" alt="">
+
+
+</div>
+    <div class="contenter " name="contentW">
+        <h1>Now put keys and detect is reaction spontaneous or not </h1>
+        <div class="eqgr">
+        <div class="eqingr">
+            <select  id="enthalpy" name="enthalpy"  >
+                <option value="" selected disabled>enthalpy</option>
+                <option value="1">positive</option>
+                <option value="-1">negantive</option>
+            </select>
+
+        </div>
+        <div class="eqingr">
+            <select id="entropy" name="entropy"  >
+                <option value="" selected disabled>entropylpy</option>
+                <option value="1">positive</option>
+                <option value="-1">negantive</option>
+            </select>
+
+        </div>
+        <div class="eqingr">
+            <select  id="temperature" name="temperature"  >
+                <option value="" selected disabled>temperature</option>
+                <option value="1">high</option>
+                <option value="-1">low</option>
+            </select>
+
+        </div>
+        <div class="eqingr">
+            <button onclick="showgibs()" id="but2">show</button>
+        </div>
+        </div>
+        <p id="gibs"> gigs free energy is:</p>
+        <p id="reaction"> reaction is:</p>
+
+
+    </div>
+    <div class="contenter " name="contentW">
+       <div style="float: left">
+           <h1>GIBB'S FREE ENERGY</h1>
+
+
+
+           <fieldset style="border-color: #000000">
+               <legend style="color: white">calculate gibb's free energy</legend>
+               <input type="number" placeholder="enthalpy" id="enth"> <label for="enth">enthalpy Kj/mol</label> <br>
+               <input type="number" placeholder="entropy" id="entr">   <label for="entr">entropy</label><br>
+               <input type="number" placeholder="temperature" id="temp"> <label for="temp">temperature in kelvin</label><br>
+               <button  id="but2" onclick="triangle()">calculate</button>
+               <br>
+               <label for="demo" >gib's free energy is </label>
+               <p id="demo" ></p>
+
+
+           </fieldset>
+
+
+
+       </div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+.outer{
+    
+    display: grid;
+    grid-template-rows: 3fr 3fr 3fr 3fr 3fr 3fr 3fr 1fr 3fr 3fr;
+    grid-template-columns:  2fr 2fr 2fr 0.3fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr ;
+                            
+    background-color: white;
+    position: absolute;
+    height: 70%;
+    width: 95%;
+    margin: 2.5%;
+}
+.bred{
+    background-color: rgb(190,150,140);
+}
+.yelow{
+background-color: yellow;}
+.dgreen{
+    background-color: darkgreen;    
+}
+.outer div{
+border-radius: 10%;
+padding: 5px;
+font-size: 1.5em;
+font-weight: bold;
+text-align: center;
+
+
+
+}
+.Blue{
+    background-color: aqua;
+}
+
+.aqua{
+    background-color: rgb(30,140,140);
+}
+.red{
+        background-color: red;
+}
+.lactinoid{
+        background-color: burlywood;
+}
+
+.tran{
+        background-color: darkorange;
+}
+.salat{
+    
+        background-color: rgb(0,200,120);
+}
+
+.actinoid{
+        background-color: rgb(245,100,70);
+}

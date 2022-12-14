@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>redies</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="mainpage.css" rel="stylesheet">
+    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="calculation.css">
+    <link  href="https://fonts.googleapis.com/css?family=Font+Name">
+    <script src="mainpage.js" defer></script>
+</head>
+<body>
+
+<img  id="bgimg"  src="image-20160510-20731-1pf8nwv.jpg">
+<header id="headerf" class="row media">
+    <!--what is chemistry -->
+    <div class="dropdown col-xs-1">
+
+        <div class="dropdiv">YOU HAVE TO KNOW</div>
+
+        <div class="content">
+            <a href="chemistryIs.html" target="_self" class="con-text">what is chemistry</a>
+            <a href="safetyRules.html" target="_self" class="con-text">saferty rules</a>
+            <a  href="equipment.html" target="_self"  class="con-text">eqipment</a>
+            <a href="PeriodicTable.html" target="_self" class="con-text">periodic table</a>
+
+        </div>
+
+    </div>
+    <!-- -->
+    <div class="dropdown col-xs-1">
+
+        <div class="dropdiv">CALCULAATIONS</div>
+
+        <div class="content">
+            <a href="energies.html" target="_self" class="con-text">energies</a>
+            <a href="constants.html" target="_self" class="con-text">constants</a>
+            <a href="Concentrtions.html" target="_self" class="con-text">concetration</a>
+        </div>
+
+    </div>
+    <!-- -->
+    <div class="dropdown col-xs-1">
+
+        <div class="dropdiv">ORGANIC CHEMISRY</div>
+
+        <div class="content">
+            <a href="introductionTOC.html" target="_self" class="con-text">introduction to organic chemistry</a>
+            <a href="maingroups.html" target="_self" class="con-text">alcohols, esters and carboxylic acids</a>
+            <a href="hydrocarbons.html" target="_self" class="con-text">hydrocarbons</a>
+            <a href="carbonyls.html" target="_self" class="con-text">сarbonyl compounds</a>
+
+        </div>
+
+    </div>
+
+    <div class="dropdown col-xs-1">
+        <a class="hm" href="mainpage.html"><div class="dropdiv">HOME</div></a>
+    </div>
+
+</header>
+
+<!--<div><button onclick="openNav()" style="z-index: 1;display: block;position: fixed">dwag dyuwagduywagudyguy</button></div>-->
+<div class="asider " id="mySidenav">
+    <div class="asiderall">
+        <div class=""> <button class="take-away" onclick="take(bgimg)">take away or return image</button></div>
+        <div  style="border: silver solid 5px">
+            <div style="width:50% ;padding: 10%; height: 100%;background-color: white;float: left">white background<input style="background-color: white;color: white" class="bgradio" oninput="bgcolord(bgimg)" value="0" type="radio" name="bgic"></div>
+            <div style="width: 50%;padding: 10%;height: 100%;background-color: #000000;float: right">dark background<input style="background-color: #000000" class="bgradio" oninput="bgcolorw(bgimg)" value="1" type="radio" name="bgic"></div>
+        </div>
+    <div><button onclick="closeNav()">close</button></div>
+    </div>
+
+</div>
+
+
+<div id="contenter" class="contenter">
+    <button id="op1" style="z-index: 1;width: 72%;position: inherit;display: block;position: fixed" onclick="openNav()"> open nav</button>
+<h1></h1>
+    <h1></h1>
+    <h1></h1>
+
+</div>
+</body>
+</html>

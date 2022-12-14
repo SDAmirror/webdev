@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>table</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="mainpage.css" rel="stylesheet">
+    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="calculation.css">
+    <link href="CSSP1.css" rel="stylesheet">
+    <link  href="https://fonts.googleapis.com/css?family=Font+Name">
+    <script src="mainpage.js" defer></script>
+</head>
+<body>
+
+<img  id="bgimg"  src="image-20160510-20731-1pf8nwv.jpg">
+<header  class="row media" id="headerf">
+    <!--what is chemistry -->
+    <div class="dropdown">
+
+        <div class="dropdiv">YOU HAVE TO KNOW</div>
+
+        <div class="content">
+            <a href="chemistryIs.html" target="_self" class="con-text">what is chemistry</a>
+            <a href="safetyRules.html" target="_self" class="con-text">safety rules</a>
+            <a  href="equipment.html" target="_self"  class="con-text">eqipment</a>
+            <a href="PeriodicTable.html" target="_self" class="con-text">periodic table</a>
+
+        </div>
+
+    </div>
+    <!-- -->
+    <div class="dropdown">
+
+        <div class="dropdiv">CALCULATIONS</div>
+
+        <div class="content">
+            <a href="energies.html" target="_self" class="con-text">energies</a>
+            <a href="constants.html" target="_self" class="con-text">constants</a>
+            <a href="Concentrtions.html" target="_self" class="con-text">concetration</a>
+        </div>
+
+    </div>
+    <!-- -->
+    <div class="dropdown">
+
+        <div class="dropdiv">ORGANIC CHEMISRY</div>
+
+        <div class="content">
+            <a href="introductionTOC.html" target="_self" class="con-text">introduction to organic chemistry</a>
+            <a href="maingroups.html" target="_self" class="con-text">alcohols, esters and carboxylic acids</a>
+            <a href="hydrocarbons.html" target="_self" class="con-text">hydrocarbons</a>
+            <a href="carbonyls.html" target="_self" class="con-text">сarbonyl compounds</a>
+
+        </div>
+
+    </div>
+
+    <div class="dropdown">
+        <a class="hm" href="mainpage.html"><div class="dropdiv">HOME</div></a>
+    </div>
+
+</header>
+<div id="mySidenav" class="asider tcborder" >
+
+    <div class="asiderall">
+
+        <div class=""> <button style="background-color: black" class="take-away" onclick="take(bgimg)">take away or return image</button></div>
+        <div  style="border: silver solid 5px">
+            <div style="width:50% ;padding: 10%; height: 100%;background-color: white;float: left">white background<input style="background-color: white;color: white" class="bgradio" oninput="bgcolord(bgimg)" value="0" type="radio" name="bgic"></div>
+            <div style="width: 50%;padding: 10%;height: 100%;background-color: #000000;float: right">dark background<input style="background-color: #000000" class="bgradio" oninput="bgcolorw(bgimg)" value="1" type="radio" name="bgic"></div>
+        </div>
+        <button style="background-color: black" onclick="closeNav()"><div>close</div></button>
+        <a class="aaa" href="#t1"><div>Periodic table</div></a>
+        <a class="aaa" href="#t2"><div>constants</div></a>
+        <div class="dropdown">
+
+            <div class="dropdiv">TESTS <img style="width: 20% " src="https://cdn.iconscout.com/icon/premium/png-256-thumb/dropdown-34-637588.png" alt=""></div>
+
+            <div class="content">
+                <a href="#t3"  class="con-text"><div>test for cations</div></a>
+                <a href="#t4"  class="con-text"><div>test for anions</div></a>
+                <a href="#t5"  class="con-text"><div>test for gase</div></a>
+            </div>
+
+        </div>
+
+        <a class="aaa" href="#headerf"><div>UP</div></a>
+
+    </div>
+
+
+</div>
+<div class="tcborder"  id="op1" onclick="openNav()"  style="height: 100%;width: 0%;color: khaki;position: fixed;border: black solid 1px;background-color: white;font-size:1.7em; text-align: center; word-wrap: break-word;">
+    <div class="asiderall">
+        <div style="background-color: black"  ></div>
+        <div ></div>
+        <div style="background-color: black"></div>
+        <div></div>
+    </div>
+</div>
+<div name="contentW" id="t1" class="outer" style="background : none">
+
+    <div class="aqua">  H </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="Blue">  He</div>
+    <div class="red">  Li </div>	<div class="bred"> be </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="dgreen">  B </div>	<div class="aqua">  C </div>	<div class="aqua">  N </div>	<div class="aqua">  O </div>	<div class="aqua">  F </div>	<div class="Blue">  Ne </div>
+    <div class="red">  Na </div>	<div class="bred">Mg</div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="salat">  Al </div>	<div class="dgreen">  Si </div>	<div class="aqua">  P </div>	<div class="aqua">  S </div>	<div class="aqua">  Cl </div>	<div class="Blue">  Ar </div>
+    <div class="red">  K </div>	<div class="bred">Ca</div>	<div class="tran">  Sc </div>	<div class="">   </div>	<div class="tran">  Ti </div>	<div class="tran">  v </div>	<div class="tran">  Cr </div>	<div class="tran">  Fe </div>	<div class="tran">  Co </div>	<div class="tran">  Ni </div>	<div class="tran">  Cu </div>	<div class="salat">  Zn </div>	<div class="salat">  Ga </div>	<div class="dgreen">  Ge </div>	<div class="dgreen">  As </div>	<div class="aqua">  Se </div>	<div class="aqua">  Li </div>	<div class="Blue">  Kr </div>
+    <div class="red">  Rb </div>	<div class="bred">Cw</div>	<div class="tran">  Y </div>	<div class="">   </div>	<div class="tran">  Zr </div>	<div class="tran">  Nb </div>	<div class="tran">  Mo </div>	<div class="tran">  Ru </div>	<div class="tran">  Rh </div>	<div class="tran">  Pd </div>	<div class="tran">  Ag </div>	<div class="salat">  Cd </div>	<div class="salat">  In </div>	<div class="salat">  Sn </div>	<div class="dgreen">  Sb </div>	<div class="dgreen">  Te </div>	<div class="aqua">  l </div>	<div class="Blue">  Xe </div>
+    <div class="red">  Cs </div>	<div class="bred">Fr</div>	<div class="lactinoid">  La </div>	<div class="">   </div>	<div class="tran">  Hr </div>	<div class="tran">  Ta </div>	<div class="tran">  W </div>	<div class="tran">  Os </div>	<div class="tran">  Ir </div>	<div class="tran">  Pt </div>	<div class="tran">  Au </div>	<div class="salat">  Hg </div>	<div class="salat">  Ti </div>	<div class="salat">  Pb </div>	<div class="salat">  Bi </div>	<div class="salat">  Po </div>	<div class="dgreen">  As </div>	<div class="Blue">  Rn </div>
+    <div class="red">  Fr </div>	<div class="bred">gf</div>	<div class="actinoid">  Ac </div>	<div class="">   </div>	<div class="tran">  Rf </div>	<div class="tran">  Db </div>	<div class="tran">  Sg </div>	<div class="tran">  Bh </div>	<div class="yelow">  Mt </div>	<div class="yelow">  Ds </div>	<div class="yelow">  Rg </div>	<div class="salat">  Cn </div>	<div class="yelow">  Nh </div>	<div class="yelow">  Fl </div>	<div class="yelow">  Mc </div>	<div class="yelow">  Lv </div>	<div class="yelow">  Ts </div>	<div class="yelow">  Og </div>
+    <div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>
+
+    <div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="lactinoid">  Ce </div>	<div class="lactinoid">  Pr </div>	<div class="lactinoid">  Nd </div>	<div class="lactinoid">  Pm </div>	<div class="lactinoid">  Sm </div>	<div class="lactinoid">  Eu </div>	<div class="lactinoid">  Gd </div>	<div class="lactinoid">  Tb </div>	<div class="lactinoid">  Dy </div>	<div class="lactinoid">  Ho </div>	<div class="lactinoid">  Er </div>	<div class="lactinoid">  Tm </div>	<div class="lactinoid">  Yb </div>	<div class="lactinoid">  Lu </div>
+    <div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="">   </div>	<div class="actinoid">  Th </div>	<div class="actinoid">  Pa </div>	<div class="actinoid">  Nd </div>	<div class="actinoid">  Pu </div>	<div class="actinoid">  Fd </div>	<div class="actinoid">  Gh </div>	<div class="actinoid">  Am </div>	<div class="actinoid">  Cs </div>	<div class="actinoid">  Es </div>	<div class="actinoid"> Fm </div>	<div class="actinoid">  Nd </div>	<div class="actinoid">  Kf </div>	<div class="actinoid">  Sr </div>	<div class="actinoid">  Fg </div>
+
+
+</div>
+
+
+ <div name="contentW" id="t2" class="contenter tcborder" style="background: none">
+     <div class="g4d">
+        <div>
+            <p name="bgPara">speed od light </p>
+            <p name="bgPara">c = 2.99999x10<sup>8</sup> ms<sup>-1</sup> </p>
+        </div>
+        <div>
+            <p name="bgPara">charge of an electron </p>
+            <p name="bgPara">e = 1.60218x10<sup>8</sup> C<sub></sub> </p>
+        </div>
+        <div>
+            <p name="bgPara">electron mass </p>
+            <p name="bgPara">m<sub>e</sub> = 9.109x10<sup>-31</sup> kg<sub></sub> </p>
+        </div>
+          <div>
+            <p name="bgPara">electron mass </p>
+            <p name="bgPara">m<sub>p</sub> = 1.672x10<sup>-27</sup> kg<sub></sub> </p>
+        </div>
+          <div>
+            <p name="bgPara">electron mass </p>
+            <p name="bgPara">m<sub>n</sub> = 1.674x10<sup>-27</sup> kg<sub></sub> </p>
+        </div>
+        <div>
+            <p name="bgPara">Planc constant </p>
+            <p name="bgPara">h = 6.626x10<sup>-34</sup> js<sup></sup> </p>
+        </div>
+
+          <div>
+            <p name="bgPara">Rydberg constant</p>
+            <p name="bgPara"> H<sub>c</sub>= 3.389x10<sup>23</sup>  s<sup>-1</sup> </p>
+        </div>
+          <div>
+            <p name="bgPara">Avogadro constant</p>
+            <p name="bgPara">  N<sub>A</sub> = 6.022x10<sup>23</sup>  mol<sup>-1</sup> </p>
+        </div>
+         <div>
+            <p name="bgPara">Faraday constant</p>
+            <p name="bgPara">  F (=N<sub>A</sub>e) = 9.648x10<sup>4</sup>  Cmol<sup>-1</sup> </p>
+        </div>
+
+         <div>
+            <p name="bgPara">Bolthman constant</p>
+            <p name="bgPara">  K<sub>b</sub> = 1.380x10<sup>-23</sup>  JK<sup>-1</sup> </p>
+        </div>
+
+         <div>
+            <p name="bgPara">Gas constant</p>
+            <p name="bgPara">  R<sub></sub> = 8.131x10<sup>23</sup>  Jmol<sup>-1</sup>K<sup>-1</sup> </p>
+        </div>
+
+         <div>
+            <p name="bgPara">graviry</p>
+            <p name="bgPara">  g<sub></sub> = 9.806<sup></sup>  ms<sup>-2</sup> </p>
+        </div>
+
+         <div>
+            <p name="bgPara">radio circumference to diameter</p>
+            <p name="bgPara"> &pi; <sub></sub> =3.14<sup></sup>  <sup></sup> </p>
+        </div>
+
+
+     </div>
+ </div>
+
+<div id="t3"  style="background: none" class="contenter tcborder" name="contentW">
+    <div  class="g4d">
+        <div name="bgPara"  style="background: gray">Cation</div>  <div name="bgPara"  style="background: gray">NaOH<sub>(aq)</sub></div>                                             <div name="bgPara"  style="background: gray">NH<sub>3</sub><sub>(aq)</sub></div>
+        <div name="bgPara" >aluminium, Al(aq)3+</div>              <div name="bgPara" >white precipitate soluble in excess</div>                                                      <div name="bgPara" >white precipitate insoluble in excess</div>
+        <div name="bgPara" >ammonium, NH4+(aq)</div>               <div name="bgPara" >no precipitate NH3 produced on heating</div>                                                   <div name="bgPara" >–</div>
+        <div name="bgPara" >barium, Ba2+(aq)</div>                 <div name="bgPara" >faint white precipitate is nearly always observed unless reagents are pure</div>               <div name="bgPara" >no precipitate</div>
+        <div name="bgPara" >calcium, Ca2+(aq)</div>                <div name="bgPara" >white precipitate with high [Ca2+(aq)]</div>                                                   <div name="bgPara" >no precipitate</div>
+        <div name="bgPara" >chromium(III), Cr3+(aq)</div>          <div name="bgPara" >grey-green precipitate soluble in excess</div>                                                 <div name="bgPara" >grey-green precipitate insoluble in excess</div>
+        <div name="bgPara" >copper(II), Cu2+(aq)</div>             <div name="bgPara" >pale blue precipitate insoluble in excess</div>                                                <div name="bgPara" >pale blue precipitate soluble in excess giving dark blue solution</div>
+        <div name="bgPara" >iron(II), Fe2+(aq)</div>               <div name="bgPara" >green precipitate turning brown on contact with air insoluble in excess</div>                  <div name="bgPara" >green precipitate turning brown on contact with air insoluble in excess</div>
+        <div name="bgPara" >iron(III), Fe3+(aq)</div>              <div name="bgPara" >red-brown precipitate insoluble in excess</div>                                                <div name="bgPara" >red-brown precipitate insoluble in excess</div>
+        <div name="bgPara" >magnesium, Mg2+(aq)</div>              <div name="bgPara" >white precipitate insoluble in excess</div>                                                    <div name="bgPara" >white precipitate insoluble in excess</div>
+        <div name="bgPara" >manganese(II), Mn2+(aq)</div>          <div name="bgPara" >off-white precipitate rapidly turning brown on contact with air insoluble in excess</div>      <div name="bgPara" >off-white precipitate rapidly turning brown on contact with air insoluble in excess</div>
+        <div name="bgPara" >zinc, Zn2+(aq)</div>                   <div name="bgPara" >white precipitate soluble in excess</div>                                                      <div name="bgPara" >white precipitate soluble in excess</div>
+
+
+    </div>
+</div>
+<div id="t4" name="contentW" class="contenter tcborder" style="background: none">
+    <div class="g40to60">
+
+        <div ><p name="bgPara">Ion</p></div><div><p name="bgPara">Reaction</p></div>
+
+
+        <div><p name="bgPara">carbonate, CO<sub>3</sub><sup>2–</sup>(aq)</p></div><div><p name="bgPara">CO<sub>2</sub> liberated by dilute acids</p></div>
+
+        <div><p name="bgPara">chloride, Cl<sub></sub><sup>–</sup>(aq)</p></div><div><p name="bgPara">gives white precipitate with Ag+(aq) (soluble in NH<sub>3</sub>(aq))</p></div>
+
+        <div><p name="bgPara">bromide, Br<sub></sub><sup>–</sup>(aq)</p></div><div><p name="bgPara">gives cream precipitate with Ag+(aq) (partially soluble in NH<sub>3</sub>(aq))</p></div>
+
+        <div><p name="bgPara">iodide, Br<sub></sub><sup>–</sup>(aq)</p></div><div><p name="bgPara">gives yellow precipitate with Ag+(aq) (partially insoluble in NH<sub>3</sub>(aq))</p></div>
+
+        <div><p name="bgPara">nitrate, NO<sub>3</sub><sup>–</sup>(aq)</p></div><div><p name="bgPara">NH<sub>3</sub> liberated on heating with OH<sup>–</sup>(aq) and Al foil</p></div>
+
+        <div><p name="bgPara">nitrate, NO<sub>2</sub><sup>–</sup>(aq)</p></div><div><p name="bgPara">NH<sub>3</sub> liberated on heating with OH<sup>–</sup>(aq) and Al foil;NO liberated by dilute acids (colourless
+        NO → (pale) brown NO<sub>2</sub> in air)</p></div>
+
+        <div><p name="bgPara">sulfate, SO4<sub>4</sub><sup>2–</sup>(aq)</p></div><div><p name="bgPara">gives white precipitate with Ba<sup>2+</sup>(aq) (insoluble in excess dilute strong acids)</p></div>
+
+        <div><p name="bgPara">sulfate, SO4<sub>3</sub><sup>2–</sup>(aq)</p></div><div><p name="bgPara">SO<sub>2</sub> liberated on warming with dilute acids; gives white precipitate with Ba<sup>2+</sup>(aq) (soluble in
+        excess dilute strong acids)</p></div>
+
+
+
+
+
+    </div>
+
+</div>
+
+<div id="t5" name="contentW" class="contenter tcborder" style="background: none">
+    <div class="g40to60">
+
+        <div ><p name="bgPara">Ion</p></div><div><p name="bgPara">Reaction</p></div>
+
+        <div ><p name="bgPara">ammonia, NH<sub>3</sub></p></div><div><p name="bgPara">turns damp red litmus paper blue</p></div>
+
+        <div ><p name="bgPara">carbon dioxide, CO<sub>2</sub></p></div><div><p name="bgPara">gives a white precipitate with limewater (precipitate dissolves with excess CO<sub>2</sub>)</p></div>
+
+        <div ><p name="bgPara">chlorine, Cl<sub>2</sub></p></div><div><p name="bgPara">bleaches damp litmus paper</p></div>
+
+        <div ><p name="bgPara">hydrogen, H<sub>2</sub></p></div><div><p name="bgPara">‘pops’ with a lighted splint</p></div>
+
+        <div ><p name="bgPara">oxygen, O<sub>2</sub></p></div><div><p name="bgPara">relights a glowing splint</p></div>
+
+        <div ><p name="bgPara">sulfur dioxide, SO2<sub>2</sub></p></div><div><p name="bgPara">turns acidified aqueous potassium manganate(VII) from purple to colourless</p></div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</div>
+</body>
+</html>

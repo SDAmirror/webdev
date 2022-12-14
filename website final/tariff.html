@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tariffs</title>
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="script.js"></script>
+	<script src="jq.js"></script>
+</head>
+<body>
+<div class="web3">
+	<div class="row header">
+		<div class="col-lg-3"></div>
+		<div class="col-lg-6 center">
+			<h1>Check out tariffs</h1>
+		</div>
+		<div class="col-lg-3"></div>
+	</div>
+	<div class="row">
+            <div class="col"></div>
+            <div class="col center">
+                <h1 id="heading">Enter the max amount of money</h1>
+                <input type="text" class="form-control" placeholder="KZT" id="money" pattern="[0-9]" maxlength="10" onchange="find(this.value)" required>
+            </div>
+            <div class="col"></div>
+        </div>
+	<div class="row cellular-el-div">
+            <div class="cellular-el" style="display: none;" id="main1">
+                <h2>Kcell</h2>
+                <div class="tarif" id="kcell-el-1" style="display: none;">
+                    <h3>Luxury 2+</h3>
+                    <h4>Price : 2590 KZT</h4>
+                    <p>Internet: 15GB <br>
+                        Unlimit between kcell users <br>
+                        300 min talking to other users <br>
+                        1000 SMS
+                    </p>
+                </div>
+                <div class="tarif" id="kcell-el-2" style="display: none;">
+                    <h3>Luxury 3+</h3>
+                    <h4>Price : 3590 KZT</h4>
+                    <p>Internet: 20GB <br>
+                        Unlimit between kcell users <br>
+                        400 min talking to other users <br>
+                        1000 SMS <br>
+                        30 min talking to users from other countries
+                    </p>
+                </div>
+                <div class="tarif" id="kcell-el-3" style="display: none;">
+                    <h3>Luxury 5+</h3>
+                    <h4>Price : 5590 KZT</h4>
+                    <p>Internet: 25GB <br>
+                        Unlimit between kcell users <br>
+                        500 min talking to other users <br>
+                        1000 SMS <br>
+                        50 min talking to users from other countries <br>
+                        30 min roaming
+                    </p>
+                </div>
+            </div>
+            <div class="cellular-el" id="main2" style="display: none;">
+                <h2>Altel</h2>
+                <div class="tarif" id="altel-el-1" style="display: none;">
+                    <h3>Setting 1</h3>
+                    <h4>Price : 2290 KZT</h4>
+                    <p>Internet: 1Mbps <br>
+                        Unlimit between altel/tele2 users <br>
+                        60 min talking to other users <br>
+                        500 SMS
+                    </p>
+                    <div class="tarif" id="altel-el-2" style="display: none;">
+                        <h3>Setting 2</h3>
+                        <h4>Price : 2590 KZT</h4>
+                        <p>Internet: 2Mbps <br>
+                            Unlimit between altel/tele2 users <br>
+                            120 min talking to other users <br>
+                            500 SMS
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row cellular-el-div">
+            <div class="cellular-el" id="main3" style="display: none;">
+                <h2>Beeline</h2>
+                <div class="tarif" id="beeline-el-1" style="display: none;">
+                    <h3>Bright</h3>
+                    <h4>Price : 2590 KZT</h4>
+                    <p>Internet: 10 GB <br>
+                        Unlimit between altel/tele2 users <br>
+                        120 min talking to other users <br>
+                        500 SMS
+                    </p>
+                </div>
+                <div class="tarif" id="beeline-el-2" style="display: none;">
+                    <h3>Setting 2</h3>
+                    <h4>Price : 2990 KZT</h4>
+                    <p>Internet: 15 GB <br>
+                        Unlimit between altel/tele2 users <br>
+                        120 min talking to other users <br>
+                        500 SMS
+                    </p>
+                </div>
+                <div class="tarif" id="beeline-el-3" style="display: none;">
+                    <h3>Setting 2</h3>
+                    <h4>Price : 3990 KZT</h4>
+                    <p>Internet: 25 GB <br>
+                        Unlimit between altel/tele2 users <br>
+                        120 min talking to other users <br>
+                        500 SMS
+                    </p>
+                </div>
+            </div>
+            <div class="cellular-el" id="main4" style="display: none;">
+                <h2>Tele2</h2>
+                <div class="tarif" id="altel-el-2" style="display: none;">
+                    <h3>Setting 2</h3>
+                    <h4>Price : 2590 KZT</h4>
+                    <p>Internet: 2Mbps <br>
+                        Unlimit between altel/tele2 users <br>
+                        120 min talking to other users <br>
+                        500 SMS
+                    </p>
+                </div>
+                <div class="tarif" id="altel-el-2" style="display: none;">
+                    <h3>Setting 2</h3>
+                    <h4>Price : 2590 KZT</h4>
+                    <p>Internet: 2Mbps <br>
+                        Unlimit between altel/tele2 users <br>
+                        120 min talking to other users <br>
+                        500 SMS
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row footer"></div>
+    </div>
+</div>
+</body>
+</html>

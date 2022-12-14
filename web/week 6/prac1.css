@@ -1,0 +1,73 @@
+.container{
+    position: absolute;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+   
+    height: auto;
+}
+
+.box1{
+ 
+    flex: 1;
+    
+}
+
+.box2{
+    
+      flex: 1;
+    
+}
+
+img{
+    border-radius: 10%;
+   width: 10%;
+    height: 100%;
+}
+.box1 img {
+
+    float: left;
+}
+.box2 img{
+
+    float: right;
+    
+}
+.box1 h1{
+    clear: right;
+    text-align: left; 
+    float: left;
+    
+    
+}
+.box2 h1{
+    
+    clear: left;
+    text-align: right;
+    float: right;
+}
+h1{
+    font-size: 200%;
+  
+    width: 90%;
+   
+        
+}
+
+.box1 p{
+    font-size: 200%;
+    text-align: left;
+    
+    
+}
+.box2 p{
+    text-align: right;
+}
+p{  
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+    font-size: 0.8em;
+}
+

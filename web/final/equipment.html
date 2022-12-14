@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>equipment</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="mainpage.css" rel="stylesheet">
+    <link  href="https://fonts.googleapis.com/css?family=Font+Name">
+    <link rel="stylesheet" href="equipment.css">
+    <script src="mainpage.js" defer></script>
+</head>
+<body>
+
+<img  id="bgimg"  src="image-20160510-20731-1pf8nwv.jpg">
+<header id="headerf" class="row media">
+    <!--what is chemistry -->
+    <div class="dropdown col-xs-1">
+
+        <div class="dropdiv">YOU HAVE TO KNOW</div>
+
+        <div class="content">
+            <a href="chemistryIs.html" target="_self" class="con-text">what is chemistry</a>
+            <a href="safetyRules.html" target="_self" class="con-text">safety rules</a>
+            <a  href="equipment.html" target="_self"  class="con-text">eqipment</a>
+            <a href="PeriodicTable.html" target="_self" class="con-text">periodic table</a>
+
+        </div>
+
+    </div>
+    <!-- -->
+    <div class="dropdown col-xs-1">
+
+        <div class="dropdiv">CALCULATIONS</div>
+
+        <div class="content">
+            <a href="energies.html" target="_self" class="con-text">energies</a>
+            <a href="constants.html" target="_self" class="con-text">constants</a>
+            <a href="Concentrtions.html" target="_self" class="con-text">concentration</a>
+        </div>
+
+    </div>
+    <!-- -->
+    <div class="dropdown col-xs-1">
+
+        <div class="dropdiv">ORGANIC CHEMISTRY</div>
+
+        <div class="content">
+            <a href="introductionTOC.html" target="_self" class="con-text">introduction to organic chemistry</a>
+            <a href="maingroups.html" target="_self" class="con-text">alcohols, esters and carboxylic acids</a>
+            <a href="hydrocarbons.html" target="_self" class="con-text">hydrocarbons</a>
+            <a href="carbonyls.html" target="_self" class="con-text">сarbonyl compounds</a>
+
+        </div>
+
+    </div>
+
+    <div class="dropdown col-xs-1">
+        <a class="hm" href="mainpage.html"><div class="dropdiv">HOME</div></a>
+    </div>
+
+</header>
+<div id="mySidenav" class="asider" >
+
+    <div class="asiderall">
+        <div class=""> <button style="background-color: black" class="take-away" onclick="take(bgimg)">take away or return image</button></div>
+        <div  style="border: silver solid 5px">
+            <div style="width:50% ;padding: 10%; height: 100%;background-color: white;float: left">white background<input style="background-color: white;color: white" class="bgradio" oninput="bgcolord(bgimg)" value="0" type="radio" name="bgic"></div>
+            <div style="width: 50%;padding: 10%;height: 100%;background-color: #000000;float: right">dark background<input style="background-color: #000000" class="bgradio" oninput="bgcolorw(bgimg)" value="1" type="radio" name="bgic"></div>
+        </div>
+        <button style="background-color: black" onclick="closeNav()"><div>close</div></button>
+
+    </div>
+
+
+</div>
+<div class=""  id="op1" onclick="openNav()"  style="height: 100%;width: 0%;color: khaki;position: fixed;border: black solid 1px;background-color: white;font-size:1.7em; text-align: center; word-wrap: break-word;">
+    <div class="asiderall">
+        <div style="background-color: black"  ></div>
+        <div ></div>
+        <div style="background-color: black"></div>
+        <div></div>
+    </div>
+</div>
+<div  name="contentW" class="contenter eqgr" style="background: none ;color: khaki">
+
+    <div class="eqingr">
+        <div>
+            <img src="https://www.acs.org/content/acs/en/chemical-safety/basics/glassware-and-equipment/_jcr_content/articleContent/columnsbootstrap/column0/textimage/image.img.png/1548461012620.png" alt="">
+        </div>
+        <div>
+            <h1>Balance</h1>
+            <p>Used for measuring mass.</p>
+        </div>
+    </div>
+    <div class="eqingr">
+        <div>
+            <img src="https://www.acs.org/content/acs/en/chemical-safety/basics/glassware-and-equipment/_jcr_content/articleContent/columnsbootstrap/column0/textimage_6613745/image.img.png/1548461005471.png" alt="">
+        </div>
+        <div>
+            <h1>Beaker</h1>
+            <p>Used to hold, mix, and heat liquids.</p>
+        </div>
+    </div>
+    <div class="eqingr">
+        <div>
+            <img src="https://www.acs.org/content/acs/en/chemical-safety/basics/glassware-and-equipment/_jcr_content/articleContent/columnsbootstrap/column0/textimage_282677679/image.img.png/1548461014042.png" alt="">
+        </div>
+        <div>
+            <h1>Beaker Tongs</h1>
+            <p>Used to pick up beakers.</p>
+        </div>
+    </div>
+    <div class="eqingr">
+        <div>
+            <img src="https://www.acs.org/content/acs/en/chemical-safety/basics/glassware-and-equipment/_jcr_content/articleContent/columnsbootstrap/column0/textimage_434600439/image.img.png/1548461012383.png" alt="">
+        </div>
+        <div>
+            <h1>Buret</h1>
+            <p>Used for dispensing an accurate volume of a liquid. </p>
+        </div>
+    </div>
+    <div class="eqingr">
+        <div>
+            <img src="https://www.acs.org/content/acs/en/chemical-safety/basics/glassware-and-equipment/_jcr_content/articleContent/columnsbootstrap/column0/textimage_1060464771/image.img.png/1548461011921.png
+" alt="">
+        </div>
+        <div>
+            <h1>Clay Triangle</h1>
+            <p>Used to support a crucible during heating.</p>
+        </div>
+    </div>
+    <div class="eqingr">
+        <div>
+            <img src="https://www.acs.org/content/acs/en/chemical-safety/basics/glassware-and-equipment/_jcr_content/articleContent/columnsbootstrap/column0/textimage_93626090/image.img.png/1548461013901.png" alt="">
+        </div>
+        <div>
+            <h1>Crucible</h1>
+            <p>Used for holding chemicals during heating to very high temperatures.</p>
+        </div>
+    </div>
+    <div class="eqingr">
+        <div>
+            <img src="https://www.acs.org/content/acs/en/chemical-safety/basics/glassware-and-equipment/_jcr_content/articleContent/columnsbootstrap/column0/textimage_1599219543/image.img.png/1548461011816.png" alt="">
+        </div>
+        <div>
+            <h1>Crucible Tongs</h1>
+            <p>Used to hold crucibles.</p>
+        </div>
+    </div>
+    <div class="eqingr">
+        <div>
+            <img src="https://www.acs.org/content/acs/en/chemical-safety/basics/glassware-and-equipment/_jcr_content/articleContent/columnsbootstrap/column0/textimage_2053224221/image.img.png/1548461013309.png" alt="">
+        </div>
+        <div>
+            <h1>Erlenmeyer Flask</h1>
+            <p>Used to hold and mix chemicals. </p>
+        </div>
+    </div>     <div class="eqingr">
+        <div>
+            <img src="https://www.acs.org/content/acs/en/chemical-safety/basics/glassware-and-equipment/_jcr_content/articleContent/columnsbootstrap/column0/textimage_1373620167/image.img.png/1548461020634.png" alt="">
+        </div>
+        <div>
+            <h1>
+                Evaporating Dish</h1>
+            <p>Used to heat liquids for evaporation</p>
+        </div>
+    </div>     <div class="eqingr">
+        <div>
+            <img src="https://www.acs.org/content/acs/en/chemical-safety/basics/glassware-and-equipment/_jcr_content/articleContent/columnsbootstrap/column0/textimage_794352541/image.img.png/1548461007950.png" alt="">
+        </div>
+        <div>
+            <h1>Forceps</h1>
+            <p>Used to pick up or hold small objects</p>
+        </div>
+    </div>     <div class="eqingr">
+        <div>
+            <img src="https://www.acs.org/content/acs/en/chemical-safety/basics/glassware-and-equipment/_jcr_content/articleContent/columnsbootstrap/column0/textimage_867738219/image.img.png/1548461004698.png" alt="">
+        </div>
+        <div>
+            <h1>Funnel</h1>
+            <p>Used to transfer liquids </p>
+        </div>
+    </div>     <div class="eqingr">
+        <div>
+            <img src="https://www.acs.org/content/acs/en/chemical-safety/basics/glassware-and-equipment/_jcr_content/articleContent/columnsbootstrap/column0/textimage_1247223464/image.img.png/1548461006417.png" alt="">
+        </div>
+        <div>
+            <h1>Graduated Cylinder</h1>
+            <p>Used to measure a precise volume of a liquid</p>
+        </div>
+    </div>
+
+
+    
+    
+</div>
+
+
+
+</body>
+</html>

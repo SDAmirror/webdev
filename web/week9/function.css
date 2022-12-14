@@ -1,0 +1,60 @@
+#bar{
+
+    width: 0px;
+    height: 30px;
+    background-color: red;
+
+
+}
+.forbar{
+    background-color: gray;
+    align-content: center;
+}
+.container{
+    background-color: palegoldenrod;
+}
+body {
+    background-color: palegoldenrod;
+}
+
+.col-xs-3{
+    background-color: red;
+    border-radius: 7px;
+
+}
+.calc{
+    border: black;
+}
+.space{
+    background-color: greenyellow;
+    width: 100%;
+    height: 300px;
+}
+#but2{
+    width: 200px;
+    height: 30px;
+    color: red;
+    background-color: black;
+    margin: 10px;
+}
+.task1{
+    height: 200px;
+    background-color: greenyellow;
+    width: 100%;
+}
+#height{
+
+    width: 200px;
+    height: 30px;
+    background-color: yellow;
+}
+#base{
+    width: 200px;
+    height: 30px;
+    background-color: yellow;
+}
+#d{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+}

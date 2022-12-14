@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e9d409fc-bf57-4fc4-9157-dd74988c5d71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/final/25694 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/25694.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/25694.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome_files/12.df01fdf8d741193ec734.js.загружено" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome_files/18.678b1bc93b6a8a72d0f6.js.загружено" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome_files/349cfdf6.js.загружено" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome_files/6.f727d15997a64156e3e5.js.загружено" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome_files/analytics.js.загружено" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome_files/api.js.загружено" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome_files/app-afe2d205be2cb76c9a3e9e51e0c210f2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome_files/app-f4b4cd3111566a85734be1b3972c8e6d.js.загружено" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome_files/carbon.js.загружено" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome_files/ecommerce.js.загружено" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome_files/embed.js.загружено" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome_files/inner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome_files/m-outer-5af13a74058f4fb832e146db610e8300.js.загружено" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome_files/m-outer-a0f6c1465b8d9aab778cf2913d1d3c86.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome_files/main.ae506766.js.загружено" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome_files/monetization.js.загружено" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome_files/pro.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome_files/saved_resource" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome_files/saved_resource(1)" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome_files/settings-b752198001451760049caebac6ff2c30.js.загружено" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome_files/vendor.aedcb50b.js.загружено" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/Home Icon _ Font Awesome_files/woff2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final/home_icon-icons.com_73532.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/article.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/d0b00c923a8e51b1146b7cd1970563120f2e4ca0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/mainpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/final/mainpage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/redies.html" beforeDir="false" afterPath="$PROJECT_DIR$/final/redies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/~$oject documet.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week8/Лист Microsoft Excel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/week8/Лист Microsoft Excel.xlsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ProjectId" id="1YvKqa7CBOhYK4YqcW77ELKsB16" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9d409fc-bf57-4fc4-9157-dd74988c5d71" name="Default Changelist" comment="" />
+      <created>1583817819805</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583817819805</updated>
+      <workItem from="1583817821069" duration="18000" />
+      <workItem from="1583992507456" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1583817836563">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583817836563" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583992507504">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583992507504" />
+  </component>
+</project>

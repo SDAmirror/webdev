@@ -1,0 +1,14 @@
+.eqgr{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
+
+}
+
+
+
+.eqingr {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}

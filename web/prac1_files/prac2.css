@@ -1,0 +1,52 @@
+
+
+header{
+    height: 100px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+}
+.dropdiv {
+    text-align: center;
+    width: 100%;
+    background-color: fuchsia;
+    color: black;
+    font-size: 26px;
+    border: none;
+}
+header div{
+    height: 100%;
+    flex:1;    
+
+    
+}
+
+
+.content {
+    height: auto;
+  display: none;
+  position: absolute;
+  background-color: aqua;
+    width:100% ;
+  box-shadow: 0px 8px 16px 0px blue;
+  z-index:0;
+}
+
+
+.content h1 {
+  color: black;
+  
+  text-decoration: none;
+  display: block;
+}
+
+
+.content  h1:hover {background-color: red;}
+
+
+.dropdown:hover   .content {display:block; position: relative;
+padding-top: 15px;}
+
+
+.dropdown:hover   .dropdiv {background-color: green;}

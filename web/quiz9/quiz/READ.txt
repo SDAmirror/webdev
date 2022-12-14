@@ -1,0 +1,8 @@
+text-colors:#ffffff and #555555
+Green	#1abc9c 
+Dark Blue #474e5d
+Black Gray #2f2f2f
+link to FONT-FAMILY:	html <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+			css  font-family: Montserrat
+HOW TO CIRCLE IMAGE IN BOOTSTRAP????
+just use built in bootstrap classes for your image: img-responsive img-circle margin
